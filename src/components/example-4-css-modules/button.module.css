@@ -1,0 +1,15 @@
+/* src/components/example-4-css-modules/button.module.css */
+
+/* This is a class selector named "btn". 
+   Since this is a CSS Module, it will only apply to the component that imports it.
+   The name will be automatically scoped (like .btn_xyz123) to avoid conflicts.
+*/
+
+.btn {
+    background-color: #ffa500;
+    border-radius: 8px;
+    color: white;
+    font-size: 24pt;
+    padding: 15px 50px;
+    width: 300px;
+}
